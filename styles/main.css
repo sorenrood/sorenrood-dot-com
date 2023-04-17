@@ -24,7 +24,7 @@ body {
   font-variation-settings: 'wght' 450;
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
-  background-color: #19191a;
+  background-color: #000000;
 }
 b,
 strong,
@@ -36,6 +36,7 @@ h6 {
 }
 h1 {
   font-variation-settings: 'wght' 850;
+  margin: 0 !important;
 }
 h2 {
   font-variation-settings: 'wght' 750;
@@ -57,10 +58,20 @@ img.next-image {
   margin: 0;
 }
 
+a {
+  text-decoration: none !important;
+  color: rgb(53, 184, 220) !important;
+}
+
+a:hover {
+  color:rgba(232, 122, 178, 0.751) !important;
+  text-decoration: underline !important;
+}
+
 .prose a {
   color: #0074de;
 }
 
 .nav-line .nav-link {
-  color: #69778c;
+  color: #7b9fd6;
 }

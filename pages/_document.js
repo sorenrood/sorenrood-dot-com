@@ -2,9 +2,9 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   const meta = {
-    title: "Nextra Blog",
-    description: "Clone and deploy your own Next.js-powered portfolio in minutes.",
-    image: "https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png",
+    title: "Søren Rood",
+    description: "My digital space",
+    image: "https://cdn.discordapp.com/attachments/894804525494456343/958585474597937152/unknown.png",
   };
 
   return (
@@ -16,8 +16,8 @@ export default function Document() {
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@yourname" />
+        <meta name="twitter:card" content={meta.image} />
+        <meta name="twitter:site" content="@roodsoren" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
