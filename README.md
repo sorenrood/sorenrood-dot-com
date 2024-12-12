@@ -1,4 +1,4 @@
-# Nextra Blog Theme
+# sorenrood.com
 
 My personal website.
 
