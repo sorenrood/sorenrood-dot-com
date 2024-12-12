@@ -24,7 +24,8 @@ body {
   font-variation-settings: 'wght' 450;
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
-  background-color: #000000;
+  background-color: #FEFCF1 !important;
+  color: #1f1e1e !important;
 }
 b,
 strong,
@@ -59,19 +60,27 @@ img.next-image {
 }
 
 a {
-  text-decoration: none !important;
-  color: rgb(53, 184, 220) !important;
+  text-decoration: underline !important;
+  color: #1f1e1e !important;
 }
 
 a:hover {
-  color:rgba(232, 122, 178, 0.751) !important;
   text-decoration: underline !important;
+  color: rgb(42, 9, 159) !important;
+}
+
+li {
+  margin-bottom: 16px !important;
 }
 
 .prose a {
-  color: #0074de;
+  color: #000000;
+  text-decoration: underline;
 }
 
 .nav-line .nav-link {
   color: #7b9fd6;
+}
+* {
+  color: #292828 !important;
 }
