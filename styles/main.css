@@ -1,32 +1,23 @@
+
 @font-face {
-  font-family: 'Inter var';
+  font-family: 'IBM Plex Mono';
   font-style: normal;
-  font-weight: 100 900;
-  font-display: block;
-  src: url(/fonts/Inter-roman.latin.var.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'Inter var';
-  font-style: italic;
-  font-weight: 100 900;
-  font-display: block;
-  src: url(/fonts/Inter-italic.latin.var.woff2) format('woff2');
-  font-named-instance: 'Italic';
+  font-weight: 400;
+  src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 }
 
 body {
-  font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'IBM Plex Mono', monospace;
   -webkit-font-smoothing: subpixel-antialiased;
   font-feature-settings: 'case' 1, 'cpsp' 1, 'dlig' 1, 'cv01' 1, 'cv02',
     'cv03' 1, 'cv04' 1;
   font-variation-settings: 'wght' 450;
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
-  background-color: #FEFCF1 !important;
-  color: #1f1e1e !important;
+  background-color: rgb(26, 26, 26) !important;
+  color: rgb(95, 95, 95) !important;
 }
+
 b,
 strong,
 h3,
@@ -35,10 +26,12 @@ h5,
 h6 {
   font-variation-settings: 'wght' 650;
 }
+
 h1 {
   font-variation-settings: 'wght' 850;
   margin: 0 !important;
 }
+
 h2 {
   font-variation-settings: 'wght' 750;
 }
@@ -61,12 +54,12 @@ img.next-image {
 
 a {
   text-decoration: underline !important;
-  color: #1f1e1e !important;
+  color: rgb(95, 95, 95) !important;
 }
 
 a:hover {
   text-decoration: underline !important;
-  color: rgb(42, 9, 159) !important;
+  color: rgb(120, 120, 120) !important;
 }
 
 li {
@@ -74,13 +67,14 @@ li {
 }
 
 .prose a {
-  color: #000000;
+  color: rgb(95, 95, 95);
   text-decoration: underline;
 }
 
 .nav-line .nav-link {
-  color: #7b9fd6;
+  color: rgb(95, 95, 95);
 }
+
 * {
-  color: #292828 !important;
+  color: rgb(95, 95, 95) !important;
 }
