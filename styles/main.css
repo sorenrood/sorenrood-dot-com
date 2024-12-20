@@ -14,7 +14,7 @@ body {
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
   background-color: rgb(26, 26, 26) !important;
-  color: rgb(180, 180, 180) !important;
+  color: rgb(210, 210, 210) !important;
 }
 
 b,
@@ -53,7 +53,7 @@ img.next-image {
 
 a {
   text-decoration: underline !important;
-  color: rgb(180, 180, 180) !important;
+  color: rgb(210, 210, 210) !important;
 }
 
 a:hover {
@@ -66,14 +66,14 @@ li {
 }
 
 .prose a {
-  color: rgb(180, 180, 180);
+  color: rgb(210, 210, 210);
   text-decoration: underline;
 }
 
 .nav-line .nav-link {
-  color: rgb(180, 180, 180);
+  color: rgb(210, 210, 210);
 }
 
 * {
-  color: rgb(180, 180, 180) !important;
+  color: rgb(210, 210, 210) !important;
 }
